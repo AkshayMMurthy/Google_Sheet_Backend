@@ -7,7 +7,7 @@ from google.oauth2.service_account import Credentials
 app = FastAPI()
 
 # Path to the service account key file
-SERVICE_ACCOUNT_FILE = 'path/to/your/service-account-file.json'  # Change this to your actual path
+SERVICE_ACCOUNT_FILE = 'credentials.json'  # Change this to your actual path
 
 # Define the scopes
 SCOPES = ['https://www.googleapis.com/auth/spreadsheets']
